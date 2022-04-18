@@ -140,7 +140,7 @@ if (!isset($_SESSION['access_level'])) {
         include_once 'src/pages/dental_clinic/user/userMobileSidebar.php';
 
         // PAGES PHP
-        include_once 'src/pages/dental_clinic/user/navbar.php';
+        // include_once 'src/pages/dental_clinic/user/navbar.php';
         include_once 'src/pages/dental_clinic/user/createAcc.php';
         include_once 'src/pages/dental_clinic/user/page11.php';
         include_once 'src/pages/dental_clinic/user/0page.php';
@@ -156,7 +156,7 @@ if (!isset($_SESSION['access_level'])) {
         include_once 'src/pages/dental_clinic/user/bottomNav.php';
 
         echo '<script src="src/func/dental_clinic/main.js"></script>';
-        // echo '<script src="src/func/dental_clinic/user/user.js"></script>';
+        echo '<script src="src/func/dental_clinic/user/user.js"></script>';
 
     }
 

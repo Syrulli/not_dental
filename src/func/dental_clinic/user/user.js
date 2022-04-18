@@ -12,7 +12,13 @@
 //   container.classList.remove("sign-up-mode");
 // });
 
-
+$(".dental_carousel").flickity({
+  // options
+  cellAlign: 'left',
+  wrapAround: true,
+  freeScroll: true,
+  autoPlay: true
+});
 
 
 // // <-------TEXT TYPING HOME SECTION--------->//

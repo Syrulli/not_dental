@@ -17,7 +17,7 @@
     </section>
 
     <section>
-        <div class="container mt-5">
+        <div class="container mt-">
             <div class="row text-center">
                 <div class="col-12">
                     <span class="h4" style="letter-spacing: 4px;">Hello There!</span><br>
@@ -26,7 +26,7 @@
             </div>
         </div>
 
-        <div class="container-lg my-3 mt-5 mb-5" style="width: 70% !important;">
+        <div class="container-lg my-3 mt-5" style="width: 70% !important;">
             <!-- <div class="row text-white text-center" id="landing_packages">
                 <div class="col-lg-4 mb-sm-5">
                     <div class="card dentalCard">
@@ -68,14 +68,13 @@
                     </div>
                 </div>
             </div> -->
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
 
                         <div class="container">
                             <div class="row">
 
-                                <!-- CAROUSEL CARDS -->
                                 <div class="col-lg-4 col-sm-12">
                                     <div class="card dentalCard text-center">
                                         <div>
@@ -123,7 +122,6 @@
                     <div class="carousel-item">
                         <div class="container">
                             <div class="row">
-                                <!-- CAROUSEL CARDS -->
                                 <div class="col-lg-4 col-sm-12">
                                     <div class="card dentalCard text-center">
                                         <div>
@@ -169,7 +167,6 @@
                 </div>
 
 
-                <!-- CAROUSEL BUTTONS -->
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
@@ -180,6 +177,82 @@
                     <span class="visually-hidden">Next</span>
                 </button>
 
+            </div> -->
+
+            <div class="dental_carousel">
+                <div class="dental_inner_carousel">
+                    <div class="card dentalCard text-center">
+                        <div>
+                            <img src="src/resources/img/bottle.png" class="card-img-top" style="border-radius: 2%; width: 50% !important; height: 15rem ;">
+                        </div>
+                        <div class="card-body">
+                            <span class="card-title h6 mb-2">Complete Medical Exam</span>
+                            <br>
+                            <button data-bs-toggle="modal" data-bs-target="#package" class="mt-2 text-white">Avail</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="dental_inner_carousel">
+                    <div class="card dentalCard text-center">
+                        <div>
+                            <img src="src/resources/img/bottle.png" class="card-img-top" style="border-radius: 2%; width: 50% !important; height: 15rem ;">
+                        </div>
+                        <div class="card-body">
+                            <span class="card-title h6 mb-2">Complete Medical Exam</span>
+                            <br>
+                            <button data-bs-toggle="modal" data-bs-target="#package" class="mt-2 text-white">Avail</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="dental_inner_carousel">
+                    <div class="card dentalCard text-center">
+                        <div>
+                            <img src="src/resources/img/bottle.png" class="card-img-top" style="border-radius: 2%; width: 50% !important; height: 15rem ;">
+                        </div>
+                        <div class="card-body">
+                            <span class="card-title h6 mb-2">Complete Medical Exam</span>
+                            <br>
+                            <button data-bs-toggle="modal" data-bs-target="#package" class="mt-2 text-white">Avail</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <span><a href="#" class="text-white privacy_policy">CHERONZELLE 2022</a></span>
+                </div>
+
+                <div class="col-lg-6 col-sm-12">
+                    <p class="text-lg-end"><a href="#" class="text-white privacy_policy" data-bs-toggle="modal" data-bs-target="#privacy_policy"><u>Privacy Policy</u></a></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+
+        <div class="container about_container mt-lg-5 mb-sm-5  h-100" style="width: 70%;">
+            <div class="row my-5 pb-4">
+                <div class="col-lg-12">
+                    <p>
+                        <i>
+                            <b>“Cheronzelle Diagnostic Laboratory, X-ray & Medical Clinic is one of the accredited, private, secondary clinical laboratory/x-ray</b>
+                        </i>
+                        of the municipal government, for the purpose of conducting the ancillary and laboratory examinations required for municipal employees by the civil service commission and other tasks that maybe authorized by the local government unit.”
+                    </p>
+                    <p>
+                       <b> 290 ( 2nd floor ) San Vicente St., San Pedro Laguna</b>
+                       <br>
+                       (02) 808 6970
+                    </p>
+                </div>
             </div>
         </div>
     </section>
